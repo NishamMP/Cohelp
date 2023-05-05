@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/Relative"
+    tools:context=".contacts">
+
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/Head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="COVID HELP LINE NUMBERS"
+        android:textSize="25dp"
+        android:textColor="#FF0000"
+        android:fontFamily="@font/elmessiri_bold"
+        android:layout_marginTop="35dp"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Head"
+        android:layout_marginTop="3dp"
+        android:textColor="@color/black"
+        android:text="CENTRAL HELPLINE NUMBER             -          " />
+
+    <TextView
+        android:id="@+id/cen_help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Head"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity=""
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginRight="35dp"
+        android:textColor="#0000FF"
+        android:text="+91-11-23978046" />
+
+    <TableLayout
+        android:id="@+id/tab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cen_help"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:stretchColumns="1,2,3"
+        tools:context=".contacts">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HELPLINE NO OF STATES"
+            android:gravity="left"
+            android:textSize="20dp"
+            android:textColor="#F7FAF9"
+            android:textStyle="bold"
+            android:background="#009688"/>
+
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_weight="1"
+                android:background="#B7BABA"
+                android:gravity="left"
+                android:padding="10dp"
+                android:text="SLNO"
+                android:textColor="#000000"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#B7BABA"
+                android:gravity="left"
+                android:padding="10dp"
+                android:text="NAME OF STATE"
+                android:textColor="#000000"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#B7BABA"
+                android:gravity="left"
+                android:padding="10dp"
+                android:text="PHONE NO"
+                android:textColor="#000000"
+                android:textSize="15dp" />
+
+        </TableRow>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/click"
+
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@+id/tab"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:background="@color/teal_700"
+        android:text="KERALA HELPLINE NUMBERS"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+</RelativeLayout>
+
+
+
+</ScrollView>

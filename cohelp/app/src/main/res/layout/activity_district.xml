@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".district">
+
+    <TextView
+        android:id="@+id/Head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="COVID HELP LINE NUMBERS KERALA"
+        android:textSize="25dp"
+        android:textColor="#FF0000"
+        android:fontFamily="@font/elmessiri_bold"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal" />
+
+
+        <LinearLayout
+            android:id="@+id/linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Head">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view_district"
+            android:layout_width="match_parent"
+            android:layout_height="450dp" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/click"
+        android:layout_below="@id/linear"
+        android:layout_marginTop="30dp"
+        android:text="CENTRAL HELPLINE NUMBERS"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="@color/teal_700"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        />
+
+</RelativeLayout>

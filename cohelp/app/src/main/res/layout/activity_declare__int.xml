@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Declare_Int">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#3090c7">
+
+    <EditText
+        android:id="@+id/name"
+        android:hint="താങ്കളുടെ പേര്"
+        android:background="@color/white"
+        android:textColorHint="@color/black"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:padding="5dip"
+        />
+    <EditText
+        android:id="@+id/location"
+        android:hint="താങ്കളുടെ സ്ഥലം"
+        android:textColorHint="@color/black"
+        android:layout_below="@+id/name"
+        android:layout_marginTop="35dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_width="300dp"
+        android:background="@color/white"
+        android:layout_height="40dp"/>
+    <EditText
+        android:id="@+id/veichle_name"
+        android:hint="വാഹനത്തിന്റെ പേര് (Eg:CAR)"
+        android:gravity="center"
+        android:textColorHint="@color/black"
+        android:layout_below="@+id/location"
+        android:layout_marginTop="35dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="300dp"
+        android:background="@color/white"
+        android:layout_height="40dp"/>
+    <EditText
+        android:id="@+id/veichle_no"
+        android:hint="വാഹനത്തിന്റെ നമ്പർ"
+        android:layout_below="@+id/veichle_name"
+        android:layout_marginTop="35dp"
+        android:gravity="center"
+        android:textColorHint="@color/black"
+        android:background="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_width="300dp"
+        android:layout_height="40dp"/>
+    <EditText
+        android:id="@+id/address"
+        android:hint="വിലാസം"
+        android:layout_below="@+id/veichle_no"
+        android:layout_marginTop="35dp"
+        android:gravity="center"
+        android:textColorHint="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_width="300dp"
+        android:background="@color/white"
+        android:layout_height="40dp"/>
+    <EditText
+        android:id="@+id/need"
+        android:hint="ആവശ്യം"
+        android:layout_below="@+id/address"
+        android:layout_marginTop="35dp"
+        android:gravity="center"
+        android:textColorHint="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_width="300dp"
+        android:background="@color/white"
+        android:layout_height="40dp"/>
+    <EditText
+        android:id="@+id/with_me"
+        android:hint="എന്നോടപ്പമുള്ളത്(Optional)"
+        android:layout_below="@+id/need"
+        android:layout_marginTop="35dp"
+        android:gravity="center"
+        android:textColorHint="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_width="300dp"
+        android:background="@color/white"
+        android:layout_height="40dp"/>
+    <EditText
+        android:id="@+id/Phone"
+        android:hint="ഫോൺ നമ്പർ"
+        android:layout_below="@+id/with_me"
+        android:layout_marginTop="35dp"
+        android:gravity="center"
+        android:textColorHint="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:background="@color/white"
+        android:inputType="phone" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_below="@+id/Phone"
+        android:id="@+id/gotim"
+        android:inputType="datetime"
+        android:text="ഇത് എഴുതുന്ന സമയം"
+        android:layout_marginTop="35dp"
+        android:background="#E5E4E2"
+        android:layout_centerHorizontal="true"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/backtim"
+        android:layout_below="@+id/gotim"
+        android:text="മടക്ക സമയം"
+        android:inputType="datetime"
+        android:layout_marginTop="35dp"
+        android:background="#E5E4E2"
+        android:layout_centerHorizontal="true"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn"
+        android:layout_below="@+id/backtim"
+        android:layout_marginTop="50dp"
+        android:text="DOWNLOAD PDF"
+        android:background="#c9c0bb"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"/>
+
+
+    </RelativeLayout>
+
+</ScrollView>

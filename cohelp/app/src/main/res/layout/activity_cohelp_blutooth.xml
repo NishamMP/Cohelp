@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:text="SWITCH ON..... FOR KEEP SAFE DISTANCE"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        />
+
+    <Switch
+        android:id="@+id/key_switch"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:text="OFF"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:gravity="center"
+        android:text="WARNINGS \n WHEN YOU GO OUTSIDE"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WEAR MASK PROPERLY \n \n SANITIZE YOUR HANDS \n \n KEEP DISTANCE OF 2 METRE
+        \n\n AVOD CLOSE CONTACT WITH OTHERS"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+
+        />
+
+
+
+</LinearLayout>

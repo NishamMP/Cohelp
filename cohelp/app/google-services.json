@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "820425251396",
+    "project_id": "cohelp-8afcb",
+    "storage_bucket": "cohelp-8afcb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:820425251396:android:6f874942101db88ca9ba11",
+        "android_client_info": {
+          "package_name": "com.example.cohelp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "820425251396-plr3fda2c4pl8sokrfsb1hicsvco8k3g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdYbVyaNkRmo84UByasd3i716ET7ID8dE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "820425251396-plr3fda2c4pl8sokrfsb1hicsvco8k3g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
